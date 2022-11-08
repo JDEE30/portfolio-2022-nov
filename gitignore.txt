@@ -1,0 +1,2 @@
+$XDG_CONFIG_HOME/git/ignore, $GIT_DIR/node_modules, .gitignore
+$XDG_CONFIG_HOME/git/ignore, $GIT_DIR/build, .gitignore

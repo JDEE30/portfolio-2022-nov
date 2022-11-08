@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import Logo from '../Assets/Images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Home_1 from '../Assets/Images/gallery/img-2.jpg';
+import Home_1 from '../Assets/Images/gallery/img-2.svg';
 import Home_2 from '../Assets/Images/about.jpg';
 import Home_3 from '../Assets/Images/1.svg';
 import Home_4 from '../Assets/Images/gallery/img-6.jpg';

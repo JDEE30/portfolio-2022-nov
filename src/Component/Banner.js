@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Slides from '../Assets/Images/slide-2.jpg';
+import Slides from '../Assets/Images/slide-2.svg';
 
 class Banner extends Component {
     render() {
@@ -23,7 +23,7 @@ class Banner extends Component {
                                         <h2>Creative <span className="spanred">Web Designer </span>and Developer</h2>
                                     </div>
                                     <div className="btns">
-                                        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3fsXlmUTW0J1ngFy7SAP1IaZYYzuRHHo3C9OCeDyHxG9C8jarP02p2RM6NJUM1evB1LVfeP1Mx" className="theme-btn go-contact-area">Contact Me</a>
+                                        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3fsXlmUTW0J1ngFy7SAP1IaZYYzuRHHo3C9OCeDyHxG9C8jarP02p2RM6NJUM1evB1LVfeP1Mx" alt="calendar button" className="theme-btn go-contact-area">Contact Me</a>
                                     </div>
                                 </div>
                             </div>

@@ -5,7 +5,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { fab, faFacebook, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Gallery_1 from '../Assets/Images/gallery/img-1.jpg';
-import Gallery_2 from '../Assets/Images/gallery/img-2.jpg';
+import Gallery_2 from '../Assets/Images/gallery/img-2.svg';
 import Gallery_3 from '../Assets/Images/gallery/img-3.jpg';
 import Gallery_4 from '../Assets/Images/gallery/img-4.jpg';
 import Gallery_5 from '../Assets/Images/gallery/img-5.jpg';
