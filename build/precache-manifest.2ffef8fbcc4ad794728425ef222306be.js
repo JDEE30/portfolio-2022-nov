@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b8e4df80b0c67381e01e215af33499c",
+    "revision": "3fc72b5530956a9336a2685e8299bf06",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.47dce79d.chunk.css"
   },
   {
-    "revision": "4ed9056b18161f53ddbe",
-    "url": "/static/css/main.d1c55d35.chunk.css"
+    "revision": "d5e995d4c20d023ab82c",
+    "url": "/static/css/main.e66ccb5b.chunk.css"
   },
   {
     "revision": "bab0d20ec085cf4dca1e",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b901d7a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ed9056b18161f53ddbe",
-    "url": "/static/js/main.f172b480.chunk.js"
+    "revision": "d5e995d4c20d023ab82c",
+    "url": "/static/js/main.93dbbc76.chunk.js"
   },
   {
     "revision": "ac2c3c631a80c91559b1",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/6.4bab8d48.svg"
   },
   {
-    "revision": "c2ad963eea995669a4c2a28b4bc4e7ab",
-    "url": "/static/media/about.c2ad963e.jpg"
+    "revision": "d4779ab458b5838d794eb69de1a0c78a",
+    "url": "/static/media/about.d4779ab4.jpg"
   },
   {
     "revision": "ef27e21e2068c7d8635b992e67eac031",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/img-10.ecf42782.jpg"
   },
   {
-    "revision": "65078d8d05341038ac27b17986ffda24",
-    "url": "/static/media/img-2.65078d8d.jpg"
+    "revision": "93b91eda4b4ff6ab0b2113489f9677e2",
+    "url": "/static/media/img-2.93b91eda.svg"
   },
   {
     "revision": "6318df05693e7aaf5cca569fc5885c9e",
@@ -116,7 +116,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "bbce480e1f031e2413e03608bbeac1d9",
-    "url": "/static/media/slide-2.bbce480e.jpg"
+    "revision": "967fa514ee7059e90d288a15c3353c69",
+    "url": "/static/media/slide-2.967fa514.svg"
   }
 ]);
