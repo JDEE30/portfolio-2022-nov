@@ -17,13 +17,13 @@ class About extends Component {
                                 <p>I am always learning more skills. However, here are some of the technologies I am familiar with: SalesForce, SalesForce Administration, React, Angular, Wordpress, Shopify, GIT, Trello, CI, CLI, Jira, Atlasian, AWS, JS, JSON, PHP, HTML, CSS, GCD, C#, SQL, Azure, SEO, Web Design, Figma, Affinity Photo, and more.</p>
                                 
                                 <div className="btns">
-                                    <a href="#protfolio" className="theme-btn">See my work</a>
+                                    <a href="#protfolio" alt="click to see portfolio" title="click to see portfolio" className="theme-btn" >See my work</a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5">
-                            <div className="hx-about-img">
-                                <img src={aboutImg}/>
+                            <div className="hx-about-img" alt="picture of me" title="picture of me" >
+                                <img src={aboutImg} />
                             </div>
                         </div>
                     </div>

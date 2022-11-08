@@ -23,14 +23,14 @@ class Header extends Component {
                 <nav className="navigation navbar navbar-default">
                     <div className="container-fluid">
                         <div className="navbar-header">
-                            <button type="button" className="open-btn" onClick={() => this.setState({isOpen: true})}>
+                            <button  type="button"  className="open-btn" onClick={() => this.setState({isOpen: true})}>
                                 <span className="sr-only">Toggle navigation</span>
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
                             <a className="navbar-brand" href="index.html">
-                                <img src={Logo} alt="" />
+                                <img src={Logo} alt="logo" title="logo" />
                             </a>
                         </div>
                         <div id="navbar" className={ this.state.isOpen ? "navbar-collapse navigation-holder active" : "navbar-collapse navigation-holder"}>
@@ -42,22 +42,22 @@ class Header extends Component {
                             </button>
                             <ul className="nav navbar-nav">
                                 <li className="home">
-                                    <a href="#home">
-                                        <img src={Home_1} alt="HomePage"/>
+                                    <a href="#home" title="link to home section">
+                                        <img src={Home_1} alt="HomePage" />
                                     </a>
                                 </li>
                                 <li className="about">
-                                    <a href="#about">
+                                    <a href="#about" title="link to about me section">
                                         <img src={Home_2} alt="AboutMe"/>
                                     </a>
                                 </li>
                                 <li className="service">
-                                    <a href="#service">
+                                    <a href="#service" title="link to service section">
                                         <img src={Home_3} alt="Skills"/>
                                     </a>
                                 </li>
                                 <li className="protfolio">
-                                    <a href="#protfolio">
+                                    <a href="#protfolio" title="link to portfolio section">
                                         <img src={Home_4} alt="Portfolio"/>
                                     </a>
                                 </li>
@@ -65,7 +65,7 @@ class Header extends Component {
                             </ul>
                         </div>
                         <div className="menu-open-btn-holder">
-                            <button className="menu-open-btn" onClick={() => this.setState({isOpen: true})}>
+                            <button  title="open menu" className="menu-open-btn" onClick={() => this.setState({isOpen: true})}>
                                 <span></span>
                                 <span></span>
                                 <span></span>

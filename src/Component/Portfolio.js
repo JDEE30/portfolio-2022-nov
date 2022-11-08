@@ -96,6 +96,8 @@ class Porfolio extends Component {
                                     <h2>Work I Have Done</h2>
                                 </div>
                                 <ul>
+                            
+                                
                                     <li><a data-filter="*" href="#" className="current" onClick={allElement}>All</a></li>
                                     <li><a data-filter=".Web-Design" href="#" className="red" onClick={webDesign}>ReactJS</a></li>
                                     <li><a data-filter=".Print-Design" href="#" onClick={printDesign}>Angular</a></li>
@@ -110,9 +112,9 @@ class Porfolio extends Component {
                                 <div className={this.state.onWebDesign ? "grid active" : "grid" 
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                         
-                                    <img src={Gallery_2} alt="This Porfolio website" className="img img-responsive"/>
+                                    <img src={Gallery_2}  className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="#" className="view-icon">
+                                        <a href="#" alt="Current portfolio website built in reactjs" title="Current portfolio website built in reactjs"className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -122,9 +124,9 @@ class Porfolio extends Component {
                                 <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     
-                                    <img src={Gallery_1} alt="Nurse Staffing website built in Reactjs" className="img img-responsive"/>
+                                    <img src={Gallery_1}  className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://www.samstaffing.com" className="view-icon">
+                                        <a href="https://www.samstaffing.com" alt="Click to see this React App" title="Click to see this React App" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -133,9 +135,9 @@ class Porfolio extends Component {
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     
-                                    <img src={Gallery_3} alt="Courier app developed in Angularn" className="img img-responsive"/>
+                                    <img src={Gallery_3} className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://play.google.com/store/apps/details?id=com.companyname.Gohfr" className="view-icon">
+                                        <a href="https://play.google.com/store/apps/details?id=com.companyname.Gohfr" alt="Click to see this Angular app" title="Click to see this Angular app" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -146,9 +148,9 @@ class Porfolio extends Component {
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                         
-                                    <img src={Gallery_6} alt="Red Peg WordPress Website" className="img img-responsive"/>
+                                    <img src={Gallery_6} className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://www.redpeg.com" className="view-icon">
+                                        <a href="https://www.redpeg.com" alt="click to see Red Peg WordPress Website" title="click to see this wordpress website"   className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -160,9 +162,9 @@ class Porfolio extends Component {
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                         
-                                    <img src={Gallery_7} alt="Wordpress website for Ryan Reiffert" className="img img-responsive"/>
+                                    <img src={Gallery_7}className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://ryanreiffert.com/" className="view-icon">
+                                        <a href="https://ryanreiffert.com/"  alt="click to see this Wordpress website" title="click to see this Wordpress website"  className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -173,9 +175,9 @@ class Porfolio extends Component {
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                         
-                                    <img src={Gallery_8} alt="Wordpress website migrated for a credit repair website" className="img img-responsive"/>
+                                    <img src={Gallery_8} className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://assurebusinesscredit.com/" className="view-icon">
+                                        <a href="https://assurebusinesscredit.com/" alt="Click to see this Wordpress website" title="Click to see this Wordpress website" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -186,9 +188,9 @@ class Porfolio extends Component {
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                         
-                                    <img src={Gallery_9} alt="Chrome Extension" className="img img-responsive"/>
+                                    <img src={Gallery_9}  className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://chrome.google.com/webstore/detail/rewards/dcmhfjomdegnpgkaahblegjpnppollhc" className="view-icon">
+                                        <a href="https://chrome.google.com/webstore/detail/rewards/dcmhfjomdegnpgkaahblegjpnppollhc" alt="Click to see this chrome extension" title="click to see this chrome extension" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -199,9 +201,9 @@ class Porfolio extends Component {
                                 <div className={this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
-                                    <img src={Gallery_5} alt="Construction website" className="img img-responsive"/>
+                                    <img src={Gallery_5}  className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://jdee30.github.io/sa-constructors/aboutus.html" className="view-icon">
+                                        <a href="https://jdee30.github.io/sa-constructors/aboutus.html" alt="click to see this html website" title="click to see this html website" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -210,9 +212,9 @@ class Porfolio extends Component {
                                 <div className={this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
-                                    <img src={Gallery_4} alt="Computer Repair Website" className="img img-responsive"/>
+                                    <img src={Gallery_4}  className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://www.sanantonioscomputerrepair.com/index.html" className="view-icon">
+                                        <a href="https://www.sanantonioscomputerrepair.com/index.html"alt="click to see this Computer Repair Website" title="click to see this HTML website"  className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -222,9 +224,9 @@ class Porfolio extends Component {
                                 <div className={this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
-                                    <img src={Gallery_10} alt="My previous portfolio made in html" className="img img-responsive"/>
+                                    <img src={Gallery_10} className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://www.2020portfolio.jeremypdickey.com" className="view-icon">
+                                        <a href="https://www.2020portfolio.jeremypdickey.com"  alt="Click to see my previous portfolio made in HTML" title="click to see my previous portfolio made in HTML"  className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
