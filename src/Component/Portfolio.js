@@ -93,8 +93,8 @@ class Porfolio extends Component {
                         <div className="col col-xs-12 sortable-gallery">
                             <div className="gallery-filters">
                                 <div className="section-title">
-                                    <span>Portfolio</span>
-                                    <h2>Work I Have Done</h2>
+                                    <span>Jeremy's Portfolio</span>
+                                    <h2>See Projects Jeremy has worked on</h2>
                                 </div>
                                 <ul>
                             

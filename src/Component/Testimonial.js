@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import testimonialImg_1 from '../Assets/Images/testimonial/1.jpg';
 import testimonialImg_2 from '../Assets/Images/testimonial/2.jpg';
+import { faAlignCenter } from '@fortawesome/free-solid-svg-icons';
 
 class Testimonial extends Component {
     render() {
@@ -47,6 +48,7 @@ class Testimonial extends Component {
         return (
             <div className="testimonial-area">
                 <div className="container">
+                    <h2 style={{ color: 'white', padding: '50', textAlign: 'center',}}>Jeremy's Feedback</h2>
                     <div className="testimonial-active">
                     <Slider {...settings}>
                         <div className="testimonial-wrap">

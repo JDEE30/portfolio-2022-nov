@@ -15,7 +15,7 @@ class Certifications extends Component {
                     <div className="col-12">
                         <div className="section-title text-center">
                             <span>Certifications</span>
-                            <h2>These are some of the Formal Certifications I've obtained</h2>
+                            <h2>Jeremy Dickey's Current Certifications</h2>
                         </div>
                     </div>
                     <div className="row">
