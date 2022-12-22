@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
-import { fab, faFacebook, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { fab, faFacebook, faFacebookF,  faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Gallery_1 from '../Assets/Images/gallery/img-1.jpg';
 import Gallery_2 from '../Assets/Images/gallery/img-2.svg';
@@ -14,6 +14,7 @@ import Gallery_7 from '../Assets/Images/gallery/img-7.jpg';
 import Gallery_8 from '../Assets/Images/gallery/img-8.jpg';
 import Gallery_9 from '../Assets/Images/gallery/img-9.jpg';
 import Gallery_10 from '../Assets/Images/gallery/img-10.jpg';
+
 
 
 class Porfolio extends Component {
@@ -116,7 +117,8 @@ class Porfolio extends Component {
                                     <div className="icon">
                                         <a href="#" alt="Current portfolio website built in Reactjs" title="Current portfolio website built in Reactjs"className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
-                                        </a>
+                                        </a> <a href="https://github.com/JDEE30/portfolio-2022-nov" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                                <FontAwesomeIcon icon={faGithub} />   </a>
                                     </div>
                                 </div>
 
@@ -128,8 +130,10 @@ class Porfolio extends Component {
                                     <div className="icon">
                                         <a href="https://www.samstaffing.com" alt="Click to see this React App" title="Click to see this React App" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
-                                        </a>
+                                        </a> <a href="https://github.com/JDEE30/awsm-project" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                                <FontAwesomeIcon icon={faGithub} />   </a>
                                     </div>
+                                    
                                 </div>
                              
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
@@ -192,7 +196,8 @@ class Porfolio extends Component {
                                     <div className="icon">
                                         <a href="https://chrome.google.com/webstore/detail/rewards/dcmhfjomdegnpgkaahblegjpnppollhc" alt="Click to see this Chrome extension" title="Click to see this Chrome extension" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
-                                        </a>
+                                        </a> <a href="https://github.com/JDEE30/RewardsChromeExtensino" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                             <FontAwesomeIcon icon={faGithub} />   </a>
                                     </div>
                                 </div>
 
@@ -205,7 +210,8 @@ class Porfolio extends Component {
                                     <div className="icon">
                                         <a href="https://jdee30.github.io/sa-constructors/aboutus.html" alt="Click to see this HTML website" title="Click to see this HTML website" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
-                                        </a>
+                                        </a> <a href="https://github.com/JDEE30/sa-constructors" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                             <FontAwesomeIcon icon={faGithub} />   </a>
                                     </div>
                                 </div>
 
@@ -215,8 +221,9 @@ class Porfolio extends Component {
                                     <img src={Gallery_4}  className="img img-responsive"/>
                                     <div className="icon">
                                         <a href="https://www.sanantonioscomputerrepair.com/index.html"alt="Click to see this Computer Repair Website" title="Click to see this HTML website"  className="view-icon">
-                                            <FontAwesomeIcon icon={faPlus} />
-                                        </a>
+                                            <FontAwesomeIcon icon={faPlus} />  
+                                        </a> <a href="https://github.com/JDEE30/San-Antonios-Computer-Repair-with-Ecom" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                             <FontAwesomeIcon icon={faGithub} />   </a>  
                                     </div>
                                 </div>
 
@@ -228,7 +235,8 @@ class Porfolio extends Component {
                                     <div className="icon">
                                         <a href="https://www.2020portfolio.jeremypdickey.com"  alt="Click to see my previous portfolio made in HTML" title="Click to see my previous portfolio made in HTML"  className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
-                                        </a>
+                                        </a> <a href="https://github.com/JDEE30/Portfolio2" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                             <FontAwesomeIcon icon={faGithub} />   </a>  
                                     </div>
                                 </div>
 

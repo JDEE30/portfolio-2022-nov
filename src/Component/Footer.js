@@ -21,12 +21,7 @@ class Footer extends Component {
                         <div className="col-12">
                             <div className="footer-menu">
                                 <ul className="d-flex " >
-                                <li>
-                            <a href="https://www.linkedin.com/in/jeremy-dickey/">
-                                <FontAwesomeIcon icon={faLinkedin} />
-                            </a>
-                            </li>
-                            <li>  
+                                                     <li>  
                                 
                             <a href="https://github.com/JDEE30/">
                                 <FontAwesomeIcon icon={faGithub} />

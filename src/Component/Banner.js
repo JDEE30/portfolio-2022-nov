@@ -23,7 +23,9 @@ class Banner extends Component {
                                         <h2>Creative <span className="spanred">Web Designer </span>and Developer</h2>
                                     </div>
                                     <div className="btns">
-                                        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3fsXlmUTW0J1ngFy7SAP1IaZYYzuRHHo3C9OCeDyHxG9C8jarP02p2RM6NJUM1evB1LVfeP1Mx" alt="calendar button" title="Calendar button" className="theme-btn go-contact-area">Contact Me</a>
+                                        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3fsXlmUTW0J1ngFy7SAP1IaZYYzuRHHo3C9OCeDyHxG9C8jarP02p2RM6NJUM1evB1LVfeP1Mx" alt="calendar button" title="Calendar button" className="theme-btn go-contact-area">Calender</a>
+                                        <a href="mailto:jobsforjdee@gmail.com" alt="email me" title="email" className="theme-btn go-contact-area">Email</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -33,12 +35,7 @@ class Banner extends Component {
                 <div className="copy"><p>Creative Designer And Developer</p></div>
                 <div className="social-links">
                     <ul>
-                       
-                        <li>
-                            <a href="https://www.linkedin.com/in/jeremy-dickey/" alt="My linkedIn" title="my LinkedIn">
-                                <FontAwesomeIcon icon={faLinkedin} />
-                            </a>
-                            </li>
+                     
                             <li>  
                                 
                             <a href="https://github.com/JDEE30/" alt="My GitHub" title="my GitHub">
