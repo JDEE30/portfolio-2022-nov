@@ -15,7 +15,7 @@ class Service extends Component {
                     <div className="col-12">
                         <div className="section-title text-center">
                             <span>What I Do</span>
-                            <h2>My Services</h2>
+                            <h2>Jermy Dickey's Services</h2>
                         </div>
                     </div>
                     <div className="row">
