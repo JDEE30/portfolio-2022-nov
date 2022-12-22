@@ -17,7 +17,7 @@ class Banner extends Component {
 
                                 <div className="col col-md-8 col-sm-12 slide-caption">
                                     <div className="slide-subtitle">
-                                        <h4>I Am Jeremy Dickey</h4>
+                                        <h1 style={{ color: 'white'}}>Jeremy Dickey</h1>
                                     </div>
                                     <div className="slide-title">
                                         <h2>Creative <span className="spanred">Web Designer </span>and Developer</h2>

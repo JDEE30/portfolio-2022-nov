@@ -34,7 +34,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-12">
                             <div className="footer-sub">
-                                <p><i className="fa fa-copyright"></i><span>Developed in ReactJS </span></p>
+                                <p><i className="fa fa-copyright"></i><span>Developed in ReactJS by: Jeremy Dickey </span></p>
                             </div>
                         </div>
                     </div>

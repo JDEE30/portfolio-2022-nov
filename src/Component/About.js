@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import aboutImg from '../Assets/Images/about.jpg';
+import aboutImg from '../Assets/Images/jeremy-dickey.jpg';
 
 class About extends Component {
     render() {
@@ -11,18 +11,18 @@ class About extends Component {
                             <div className="hx-about-content">
                                 <div className="hx-site-title">
                                     <span>Expert Web Developer & Designer</span>
-                                    <h2>About Me</h2>
+                                    <h2>About Jeremy Dickey</h2>
                                 </div>
                                 <p>I think of myself as problem solver. I can hit the ground running on any project and I love designing and developing interfaces, dashboards, websites, forms, etc from the ground up. I'm definately a team player, and can do more then just development. I often handle devops, integrations, design, administrator duties, migrations, SSL issues, Oauth and other duties.</p>
                                 <p>I am always learning more skills. However, here are some of the technologies I am familiar with: SalesForce, SalesForce Administration, React, Angular, Wordpress, Shopify, GIT, Trello, CI, CLI, Jira, Atlasian, AWS, JS, JSON, PHP, HTML, CSS, GCD, C#, SQL, Azure, SEO, Web Design, Figma, Affinity Photo, and more.</p>
                                 
                                 <div className="btns">
-                                    <a href="#protfolio" alt="click to see portfolio" title="click to see portfolio" className="theme-btn" >See my work</a>
+                                    <a href="#protfolio" alt="click to see Jeremy's portfolio" title="click to see  Jeremy's portfolio" className="theme-btn" >See Jeremy's work</a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5">
-                            <div className="hx-about-img" alt="picture of me" title="picture of me" >
+                            <div className="hx-about-img" alt="Jeremy Dickey" title="Jeremy Dickey" >
                                 <img src={aboutImg} />
                             </div>
                         </div>
