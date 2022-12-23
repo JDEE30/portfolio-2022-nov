@@ -10,7 +10,7 @@ import certImg_3 from '../Assets/Images/Certifications/META-Front-End-Engineer-C
 class Certifications extends Component {
     render () {
         return (
-            <div id="Certifications" className="hx-service-area ptb-100-70">
+            <div id="certifications" className="hx-service-area ptb-100-70">
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title text-center">

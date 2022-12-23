@@ -5,8 +5,9 @@ import Home_1 from '../Assets/Images/gallery/img-2.svg';
 import Home_2 from '../Assets/Images/jeremy-dickey.jpg';
 import Home_3 from '../Assets/Images/1.svg';
 import Home_4 from '../Assets/Images/gallery/img-6.jpg';
-import Home_5 from '../Assets/Images/home/img-5.jpg';
-import Home_6 from '../Assets/Images/home/img-6.jpg';
+import Home_5 from '../Assets/Images/SEO/SEO-wins.png';
+import Home_6 from '../Assets/Images/Certifications/META-Front-End-Engineer-Certification.png';
+
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends Component {
@@ -28,6 +29,9 @@ class Header extends Component {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+
                             </button>
                             <a className="navbar-brand" href="index.html">
                                 <img src={Logo} alt="logo" title="logo" />
@@ -59,6 +63,18 @@ class Header extends Component {
                                 <li className="protfolio">
                                     <a href="#protfolio" title="link to portfolio section">
                                         <img src={Home_4} alt="Portfolio"/>
+                                    </a>
+                                </li>
+
+                                <li className="seo">
+                                    <a href="#seo" title="link to SEO section">
+                                        <img src={Home_5} alt="SEO"/>
+                                    </a>
+                                </li>
+
+                                <li className="certifications">
+                                    <a href="#certifications" title="link to cert section">
+                                        <img src={Home_6} alt="Certs"/>
                                     </a>
                                 </li>
                             

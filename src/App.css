@@ -924,6 +924,8 @@ button:focus {
 .header-style-1 .service a:before,
 .header-style-1 .protfolio a:before,
 .header-style-1 .contact a:before,
+.header-style-1 .certifications a:before,
+.header-style-1 .seo a:before,
 .header-style-1 .blog a:before{
   position: absolute;
   left: 0;
@@ -945,6 +947,8 @@ button:focus {
 .header-style-1 .service a:after,
 .header-style-1 .protfolio a:after,
 .header-style-1 .contact a:after,
+.header-style-1 .certifications a:after,
+.header-style-1 .seo a:after,
 .header-style-1 .blog a:after{
     position: absolute;
     left: 0;
@@ -977,11 +981,20 @@ button:focus {
 .header-style-1 .contact a:after{
   content: "contact";
 }
+.header-style-1 .certifications a:after{
+  content: "Certifications";
+}
+.header-style-1 .seo a:after{
+  content: "Seo";
+}
+
 .header-style-1 .home a:hover:after,
 .header-style-1 .about a:hover:after,
 .header-style-1 .service a:hover:after,
 .header-style-1 .protfolio a:hover:after,
 .header-style-1 .contact a:hover:after,
+.header-style-1 .certifications a:hover:after,
+.header-style-1 .seo a:hover:after,
 .header-style-1 .blog a:hover:after{
   opacity: 1;
 }
@@ -990,6 +1003,8 @@ button:focus {
 .header-style-1 .service a:hover:before,
 .header-style-1 .protfolio a:hover:before,
 .header-style-1 .contact a:hover:before,
+.header-style-1 .certifications a:hover:before,
+.header-style-1 .seo a:hover:before,
 .header-style-1 .blog a:hover:before{
   opacity: .9;
 }
