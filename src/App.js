@@ -7,6 +7,7 @@ import Testimonial from './Component/Testimonial';
 import Portfolio from './Component/Portfolio';
 import Navbar from './Component/Navbar';
 import Certifications from './Component/Certifications';
+import SEO from './Component/SEO';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './Assets/Css/Responsive.css';
@@ -19,6 +20,7 @@ function App() {
             <About/>
             <Service/>
             <Portfolio/>
+            <SEO/>
             <Certifications/>
             <Testimonial/>
              <Footer/>

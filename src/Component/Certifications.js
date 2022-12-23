@@ -53,7 +53,7 @@ class Certifications extends Component {
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Front End Engineering</h3>
-                                        <p>My Front End Engineering Certification from META</p>
+                                        <p>My Front End Engineering Certification from Meta</p>
                                     </div>
                                 </div>
                             </div>
