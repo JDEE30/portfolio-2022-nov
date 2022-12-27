@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.88105e82.chunk.css",
-    "main.js": "/static/js/main.03ff8ffc.chunk.js",
-    "main.js.map": "/static/js/main.03ff8ffc.chunk.js.map",
+    "main.js": "/static/js/main.5ce03284.chunk.js",
+    "main.js.map": "/static/js/main.5ce03284.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b08b1f52.js",
     "runtime-main.js.map": "/static/js/runtime-main.b08b1f52.js.map",
     "static/css/2.217ba5bc.chunk.css": "/static/css/2.217ba5bc.chunk.css",
-    "static/js/2.d4a6e720.chunk.js": "/static/js/2.d4a6e720.chunk.js",
-    "static/js/2.d4a6e720.chunk.js.map": "/static/js/2.d4a6e720.chunk.js.map",
+    "static/js/2.8acdec44.chunk.js": "/static/js/2.8acdec44.chunk.js",
+    "static/js/2.8acdec44.chunk.js.map": "/static/js/2.8acdec44.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8085f0c758771a3a04b0ff7474751619.js": "/precache-manifest.8085f0c758771a3a04b0ff7474751619.js",
+    "precache-manifest.da671c885b36eb0e27049dd536bb4336.js": "/precache-manifest.da671c885b36eb0e27049dd536bb4336.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.217ba5bc.chunk.css.map": "/static/css/2.217ba5bc.chunk.css.map",
     "static/css/main.88105e82.chunk.css.map": "/static/css/main.88105e82.chunk.css.map",
-    "static/js/2.d4a6e720.chunk.js.LICENSE.txt": "/static/js/2.d4a6e720.chunk.js.LICENSE.txt",
+    "static/js/2.8acdec44.chunk.js.LICENSE.txt": "/static/js/2.8acdec44.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.25d588c3.jpg",
     "static/media/1.svg": "/static/media/1.4c75ed4f.svg",
     "static/media/2.svg": "/static/media/2.d23b5327.svg",
@@ -22,7 +22,9 @@
     "static/media/5.svg": "/static/media/5.78d01ccb.svg",
     "static/media/6.svg": "/static/media/6.4499a40f.svg",
     "static/media/Click-Slice-SEO-Certification.png": "/static/media/Click-Slice-SEO-Certification.f207fe92.png",
+    "static/media/Coursera-wordpress-development-certification.png": "/static/media/Coursera-wordpress-development-certification.189648c5.png",
     "static/media/Google-Technical-Support-Certification.png": "/static/media/Google-Technical-Support-Certification.721b1f56.png",
+    "static/media/IBM-Technical-Support-Certfication.png": "/static/media/IBM-Technical-Support-Certfication.a1ab5c0d.png",
     "static/media/META-Front-End-Engineer-Certification.png": "/static/media/META-Front-End-Engineer-Certification.e8b9eb77.png",
     "static/media/SEO-wins.png": "/static/media/SEO-wins.597a2182.png",
     "static/media/img-1.jpg": "/static/media/img-1.ef27e21e.jpg",
@@ -42,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.b08b1f52.js",
     "static/css/2.217ba5bc.chunk.css",
-    "static/js/2.d4a6e720.chunk.js",
+    "static/js/2.8acdec44.chunk.js",
     "static/css/main.88105e82.chunk.css",
-    "static/js/main.03ff8ffc.chunk.js"
+    "static/js/main.5ce03284.chunk.js"
   ]
 }
