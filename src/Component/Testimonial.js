@@ -147,7 +147,11 @@ class Testimonial extends Component {
                                 </div>
                             </div>
                         </div>   
-                      
+                      {/* 
+  Multi
+  line
+  comment
+
 
                         <div className="testimonial-wrap">
                             <div className="testimonial-item">
@@ -254,7 +258,7 @@ class Testimonial extends Component {
                                 </div>
                             </div>
                         </div>   
-
+*/}  
 
         </Slider>
                     </div>
