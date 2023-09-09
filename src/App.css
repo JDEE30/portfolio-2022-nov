@@ -2593,3 +2593,8 @@ border-radius: 0px;
   border: none;
 }
 
+/* custom css */
+
+.red:hover, .current {
+   background-color: #FF0300;
+}

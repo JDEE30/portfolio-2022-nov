@@ -36,20 +36,7 @@ class Certifications extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 grid col-12">
-                            <div className="hx-service-item">
-                                <div className="hx-service-single">
-                                    <div className="service-img">
-                                    <img src={certImg_2}/>
-                                    </div>
-                                    <div className="hx-service-content">
-                                        <h3>Technical Support</h3>
-                                        <p>Technical Support Certification from Google</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-sm-6 grid col-12">
+                          <div className="col-md-4 col-sm-6 grid col-12">
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
@@ -75,33 +62,7 @@ class Certifications extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 grid col-12">
-                            <div className="hx-service-item">
-                                <div className="hx-service-single">
-                                    <div className="service-img">
-                                    <img src={certImg_5}/>
-
-                                    </div>
-                                    <div className="hx-service-content">
-                                        <h3>Technical Support</h3>
-                                        <p>Technical Support Certification from IBM</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-sm-6 grid col-12">
-                            <div className="hx-service-item">
-                                <div className="hx-service-single">
-                                    <div className="service-img">
-
-                                    </div>
-                                    <div className="hx-service-content">
-                                        <h3>AWS</h3>
-                                        <p>This is my AWS Certification from: </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                     
                     </div>
                 </div>
             </div>

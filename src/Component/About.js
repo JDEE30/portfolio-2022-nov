@@ -14,7 +14,7 @@ class About extends Component {
                                     <h2>About Jeremy Dickey</h2>
                                 </div>
                                 <p>I think of myself as problem solver. I can hit the ground running on any project and I love designing and developing interfaces, dashboards, websites, forms, etc from the ground up. I'm definately a team player, and can do more then just development. I often handle devops, integrations, design, administrator duties, migrations, SSL issues, Oauth and other duties.</p>
-                                <p>I am always learning more skills. However, here are some of the technologies I am familiar with: SalesForce, SalesForce Administration, React, Angular, Wordpress, Shopify, GIT, Trello, CI, CLI, Jira, Atlasian, AWS, JS, JSON, PHP, HTML, CSS, GCD, C#, SQL, Azure, SEO, Web Design, Figma, Affinity Photo, and more.</p>
+                                <p>I am always learning more skills. However, here are some of the technologies I am familiar with: SalesForce, SalesForce Administration, React, Angular, Wordpress, Shopify, GIT, Trello, CI, CLI, Jira, Atlasian, AWS, JS, JSON, PHP, Python, XSL, SQL, HTML, CSS, GCD, C#, SQL, Azure, SEO, Web Design, Figma, Affinity Photo, and more.</p>
                                 
                                 <div className="btns">
                                     <a href="#protfolio" alt="click to see Jeremy's portfolio" title="click to see  Jeremy's portfolio" className="theme-btn" >See Jeremy's work</a>

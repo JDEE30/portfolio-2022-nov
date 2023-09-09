@@ -14,6 +14,7 @@ import Gallery_7 from '../Assets/Images/gallery/img-7.jpg';
 import Gallery_8 from '../Assets/Images/gallery/img-8.jpg';
 import Gallery_9 from '../Assets/Images/gallery/img-9.jpg';
 import Gallery_10 from '../Assets/Images/gallery/img-10.jpg';
+import Gallery_11 from '../Assets/Images/gallery/img-11.jpg';
 
 
 
@@ -99,11 +100,11 @@ class Porfolio extends Component {
                                 <ul>
                             
                                 
-                                    <li><a data-filter="*" href="#" className="current" onClick={allElement}>All</a></li>
+                                    <li><a data-filter="*" href="#" className="current" className="red"  onClick={allElement}>All</a></li>
                                     <li><a data-filter=".Web-Design" href="#" className="red" onClick={webDesign}>ReactJS</a></li>
-                                    <li><a data-filter=".Print-Design" href="#" onClick={printDesign}>Angular</a></li>
-                                    <li><a data-filter=".Web-Application" href="#" onClick={webApp}>Wordpress & extensions</a></li>               
-                                    <li><a data-filter=".Photography" href="#" onClick={Photography}>HTML,CSS,JS</a></li> 
+                                    <li><a data-filter=".Print-Design" href="#" className="red" onClick={printDesign}>Angular</a></li>
+                                    <li><a data-filter=".Web-Application" href="#" className="red" onClick={webApp}>Wordpress & extensions</a></li>               
+                                    <li><a data-filter=".Photography" href="#" className="red" onClick={Photography}>HTML,CSS,JS</a></li> 
                                 </ul>
                             </div>
                             <div className="gallery-container gallery-fancybox masonry-gallery tumho-masonary">
@@ -144,6 +145,21 @@ class Porfolio extends Component {
                                         <a href="https://play.google.com/store/apps/details?id=com.companyname.Gohfr" alt="Click to see this Angular app" title="Click to see this Angular app" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
+
+                                       
+                                    </div>
+                                </div>
+
+                                 
+                                <div className={this.state.onPrintDesign ? "grid active" : "grid"
+                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                    
+                                    <img src={Gallery_11} className="img img-responsive"/>
+                                    <div className="icon">
+                                        <a href="https://main.d1j4jfo42mc2zt.amplifyapp.com/" alt="Click to see this Angular app" title="Click to see this Angular app" className="view-icon">
+                                            <FontAwesomeIcon icon={faPlus} />
+                                        </a> <a href="https://github.com/JDEE30/07082023" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                                <FontAwesomeIcon icon={faGithub} />   </a>
                                     </div>
                                 </div>
 
