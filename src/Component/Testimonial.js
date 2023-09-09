@@ -133,7 +133,7 @@ class Testimonial extends Component {
                                 <div className="testimonial-content">
                                     <p>
                                   
-                                    "Jeremy came in as a lifesaver when I happened upon some freelance work. A local family physician wanted me to build what is now directfamilycare from the ground up. It's a simple website for a local physician, but I was new to software development. I had met him online through a community for software devs, at a time when I didn't know who else to turn to for help. He was always very approachable & I found it easy to reach out and message him to ask questions directly. Next thing I knew, I had a website that actually worked, because Jeremy helped me figure out how to actually configure my domain DNS configuration so it worked and he also worked out kinks in my UI! Jeremy is a great guy and a great software developer. I would be happy to work with him again in the future. "
+                                    "Jeremy came in as a lifesaver when I happened upon some freelance work. A local family physician wanted me to build what is now directfamilycare from the ground up. It's a simple website for a local physician, but I was new to software development. I had met him online through a community for software devs, at a time when I didn't know who else to turn to for help. He was always very approachable & I found it easy to reach out and message him to ask questions directly..."
                                   
                                     </p>
                                 </div>
@@ -154,7 +154,7 @@ class Testimonial extends Component {
                                 <div className="testimonial-content">
                                     <p>
                                      
-                                    "I am satisfied with the website that Jeremy created. The design is visually appealing and user-friendly, making it easy for visitors to navigate and find the information they need. I appreciate Jeremy's attention to detail and responsiveness throughout the development process. He was receptive to my input and implemented changes promptly. The website was delivered within the agreed-upon timeframe, and any technical issues that arose were promptly addressed. In conclusion, Jeremy D. has done a commendable job building my website. The design is appealing, the navigation is intuitive, and Jeremy's responsiveness and attention to detail have been valuable. I would confidently recommend Jeremy's services to others."
+                                    "I am satisfied with the website that Jeremy created. The design is visually appealing and user-friendly, making it easy for visitors to navigate and find the information they need. I appreciate Jeremy's attention to detail and responsiveness throughout the development process. He was receptive to my input and implemented changes promptly..."
                              
                                     </p>
                                 </div>
