@@ -14,7 +14,6 @@ class Footer extends Component {
                         <div className="col-12">
                             <div className="footer-image">
                                 <a href="index.html">
-                                    <img src={Logo}/>
                                 </a>
                             </div>
                         </div>
@@ -36,21 +35,13 @@ class Footer extends Component {
                                 <FontAwesomeIcon icon={faTwitter} /> </a>
                         </li>
 
-                        <li>  
-                               <a href="https://www.facebook.com/Jeremypdickey" alt="My Facebook" title="My FaceBook">
-                                <FontAwesomeIcon icon={faFacebook} /> </a>
-                        </li>
-
-                        <li>  
-                               <a href="https://medium.com/@jeremydickey" alt="My Medium" title="My Medium">
-                                <FontAwesomeIcon icon={faMedium} /> </a>
-                        </li>
+               
+         
                                 </ul>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="footer-sub">
-                                <p><i className="fa fa-copyright"></i><span>Developed in ReactJS by: Jeremy Dickey </span></p>
                             </div>
                         </div>
                     </div>

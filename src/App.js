@@ -5,6 +5,8 @@ import Service from './Component/Service';
 import Footer from './Component/Footer';
 import Testimonial from './Component/Testimonial';
 import Portfolio from './Component/Portfolio';
+import Portfolio2 from './Component/Portfolio2';
+
 import Navbar from './Component/Navbar';
 import Certifications from './Component/Certifications';
 import SEO from './Component/SEO';
@@ -15,15 +17,10 @@ import './Assets/Css/Responsive.css';
 function App() {
     return (
         <div className="App">
-            <Navbar />
-            <Banner/>
+        <Footer/>
+           
             <About/>
-            <Service/>
-            <Portfolio/>
-            <SEO/>
-            <Certifications/>
-            <Testimonial/>
-             <Footer/>
+       <Portfolio2/>
         </div>
     );
 }
