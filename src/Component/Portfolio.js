@@ -4,17 +4,18 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { fab, faFacebook, faFacebookF,  faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Gallery_1 from '../Assets/Images/gallery/Frame 2.png';
-import Gallery_2 from '../Assets/Images/gallery/img-2.svg';
+import Gallery_1 from '../Assets/Images/gallery/Frame 1.png';
+import Gallery_2 from '../Assets/Images/gallery/img-2.png';
 import Gallery_3 from '../Assets/Images/gallery/img-3.jpg';
 import Gallery_4 from '../Assets/Images/gallery/img-4.jpg';
 import Gallery_5 from '../Assets/Images/gallery/img-5.jpg';
 import Gallery_6 from '../Assets/Images/gallery/img-6.jpg';
 import Gallery_7 from '../Assets/Images/gallery/img-7.jpg';
 import Gallery_8 from '../Assets/Images/gallery/img-8.jpg';
-import Gallery_9 from '../Assets/Images/gallery/img-9.jpg';
+import Gallery_9 from '../Assets/Images/gallery/SAWD.png';
 import Gallery_10 from '../Assets/Images/gallery/img-10.jpg';
 import Gallery_11 from '../Assets/Images/gallery/img-11.jpg';
+import Gallery_12 from '../Assets/Images/gallery/REWARDS.png';
 
 
 
@@ -123,6 +124,20 @@ class Porfolio extends Component {
                                     
                                 </div>
                              
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                    
+                                    <img src={Gallery_2}  className="img img-responsive"/>
+                                    <div className="icon">
+                                        <a href="https://www.jeremypdickey.com" alt="Click to see this React App" title="Click to see this React App" className="view-icon">
+                                            <FontAwesomeIcon icon={faPlus} />
+                                        </a> <a href="https://github.com/JDEE30/portfolio-2022-nov" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
+                                <FontAwesomeIcon icon={faGithub} />   </a>
+                                    </div>
+                                    
+                                </div>
+                             
+
 
 
                                 <div className={this.state.onPhotography ? "grid active" : "grid"
@@ -169,7 +184,7 @@ class Porfolio extends Component {
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                         
-                                    <img src={Gallery_9}  className="img img-responsive"/>
+                                    <img src={Gallery_12}  className="img img-responsive"/>
                                     <div className="icon">
                                         <a href="https://chrome.google.com/webstore/detail/rewards/dcmhfjomdegnpgkaahblegjpnppollhc" alt="Click to see this Chrome extension" title="Click to see this Chrome extension" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />

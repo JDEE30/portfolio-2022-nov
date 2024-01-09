@@ -17,10 +17,13 @@ import './Assets/Css/Responsive.css';
 function App() {
     return (
         <div className="App">
-        <Footer/>
-           
+        <Navbar/>
+           <Banner/>
             <About/>
-       <Portfolio2/>
+       <Portfolio/>
+       <Testimonial/>
+       <Certifications/>
+       <Footer/>
         </div>
     );
 }
