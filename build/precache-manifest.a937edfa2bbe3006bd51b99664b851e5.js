@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bef5a822c9eb229497adb73575b2126",
+    "revision": "2edde1e8dd80683fb8dc1f3f2e36d325",
     "url": "/index.html"
   },
   {
-    "revision": "a79ef521bbba2aa48e69",
+    "revision": "31843da54ec8b61fdb23",
     "url": "/static/css/2.42898f50.chunk.css"
   },
   {
-    "revision": "64c0845893d368c0fa84",
+    "revision": "545aa852cd96d1947e36",
     "url": "/static/css/main.e61fcac7.chunk.css"
   },
   {
-    "revision": "a79ef521bbba2aa48e69",
-    "url": "/static/js/2.6083371a.chunk.js"
+    "revision": "31843da54ec8b61fdb23",
+    "url": "/static/js/2.2df03d51.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.6083371a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2df03d51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64c0845893d368c0fa84",
-    "url": "/static/js/main.33ebd7e8.chunk.js"
+    "revision": "545aa852cd96d1947e36",
+    "url": "/static/js/main.634737de.chunk.js"
   },
   {
     "revision": "ac52e2b910c5a30b7fbe",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Coursera-wordpress-development-certification.189648c5.png"
   },
   {
+    "revision": "960d54f4f1d5a0a4c82c425e182f8c7a",
+    "url": "/static/media/Frame 1.960d54f4.png"
+  },
+  {
     "revision": "721b1f565372e12f2e8bb8ce670a3af8",
     "url": "/static/media/Google-Technical-Support-Certification.721b1f56.png"
   },
@@ -76,12 +80,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/META-Front-End-Engineer-Certification.e8b9eb77.png"
   },
   {
-    "revision": "597a2182041a05dcc68456651c96b13f",
-    "url": "/static/media/SEO-wins.597a2182.png"
+    "revision": "d50cf8cde076870beff327c8db84424b",
+    "url": "/static/media/REWARDS.d50cf8cd.png"
   },
   {
-    "revision": "ef27e21e2068c7d8635b992e67eac031",
-    "url": "/static/media/img-1.ef27e21e.jpg"
+    "revision": "6a853c39b67d4cdc3cb5f15a000ac9a7",
+    "url": "/static/media/SAWD.6a853c39.png"
+  },
+  {
+    "revision": "597a2182041a05dcc68456651c96b13f",
+    "url": "/static/media/SEO-wins.597a2182.png"
   },
   {
     "revision": "ecf427820f6a1ce54da98b05ebd8453b",
@@ -94,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93b91eda4b4ff6ab0b2113489f9677e2",
     "url": "/static/media/img-2.93b91eda.svg"
+  },
+  {
+    "revision": "f32290bc1ccafb70016a6505a70b0bb9",
+    "url": "/static/media/img-2.f32290bc.png"
   },
   {
     "revision": "6318df05693e7aaf5cca569fc5885c9e",
@@ -120,12 +132,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/img-8.7e74f898.jpg"
   },
   {
-    "revision": "297ee97e3081c3c4c82ecc8dffd2a3fb",
-    "url": "/static/media/img-9.297ee97e.jpg"
-  },
-  {
     "revision": "866880471faeaf434b80121f5c1849e1",
     "url": "/static/media/jeremy-dickey.86688047.jpg"
+  },
+  {
+    "revision": "3fe964de914eca7e63ce592db3b4b785",
+    "url": "/static/media/saconst.3fe964de.png"
+  },
+  {
+    "revision": "c2e5821cf9d48196d867dc1f4f1bc906",
+    "url": "/static/media/samstaffing.c2e5821c.png"
+  },
+  {
+    "revision": "d06a5ba34611b9fd097a5531b97d95b7",
+    "url": "/static/media/sapc.d06a5ba3.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",

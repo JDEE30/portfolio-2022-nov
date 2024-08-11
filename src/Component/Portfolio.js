@@ -24,7 +24,6 @@ class Porfolio extends Component {
 
     state = {
         onWebDesign: false,
-        onPrintDesign: false,
         onWebApp: false,
         onPhotography: false,
         isOpen : false,
@@ -36,7 +35,6 @@ class Porfolio extends Component {
             event.preventDefault();
             this.setState({
                 onWebApp: true,
-                onPrintDesign: true,
                 onWebDesign: true,
                 onPhotography: true,
             });
@@ -46,29 +44,16 @@ class Porfolio extends Component {
             event.preventDefault();
             this.setState({
                 onWebDesign: true,
-                onPrintDesign: false,
                 onWebApp: false,
                 onPhotography: false,
                 isOpen: true,
             });
         }
 
-        const printDesign = event => {
-            event.preventDefault();
-            this.setState({
-                onPrintDesign: true,
-                onWebDesign: false,
-                onWebApp: false,
-                onPhotography: false,
-                isOpen: true,
-            });
-        }
-
-        const webApp = event => {
+           const webApp = event => {
             event.preventDefault();
             this.setState({
                 onWebApp: true,
-                onPrintDesign: false,
                 onWebDesign: false,
                 onPhotography: false,
                 isOpen: true,
@@ -80,7 +65,6 @@ class Porfolio extends Component {
             this.setState({
                 onPhotography: true,
                 onWebApp: false,
-                onPrintDesign: false,
                 onWebDesign: false,
                 isOpen: true,
             });
@@ -104,7 +88,6 @@ class Porfolio extends Component {
                                 
                                     <li><a data-filter="*" href="#" className="current" className="red"  onClick={allElement}>All</a></li>
                                     <li><a data-filter=".Web-Design" href="#" className="red" onClick={webDesign}>ReactJS</a></li>
-                                    <li><a data-filter=".Print-Design" href="#" className="red" onClick={printDesign}>Angular</a></li>
                                     <li><a data-filter=".Web-Application" href="#" className="red" onClick={webApp}>Wordpress & extensions</a></li>               
                                     <li><a data-filter=".Photography" href="#" className="red" onClick={Photography}>HTML,CSS,JS</a></li> 
                                 </ul>

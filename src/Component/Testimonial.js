@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import testimonialImg_1 from '../Assets/Images/testimonial/1.jpg';
 import testimonialImg_2 from '../Assets/Images/testimonial/2.jpg';
+import testimonialImg_3 from '../Assets/Images/testimonial/3.png';
 import { faAlignCenter } from '@fortawesome/free-solid-svg-icons';
 
 class Testimonial extends Component {
@@ -139,7 +140,7 @@ class Testimonial extends Component {
                                 </div>
                                 <div className="testimonial-sub">
                                     <div className="testimonial-img">
-                                        <img src={testimonialImg_2}/>
+                                        <img src={testimonialImg_3}/>
                                     </div>
                                     <div className="testimonial-tumb-content">
                                         <h4>John D. | Senior Software Engineer</h4>

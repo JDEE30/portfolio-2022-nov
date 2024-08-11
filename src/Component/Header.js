@@ -3,8 +3,7 @@ import Logo from '../Assets/Images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Home_1 from '../Assets/Images/gallery/img-2.svg';
 import Home_2 from '../Assets/Images/jeremy-dickey.jpg';
-import Home_3 from '../Assets/Images/1.svg';
-import Home_4 from '../Assets/Images/gallery/img-6.jpg';
+import Home_4 from '../Assets/Images/gallery/SAWD.png';
 import Home_5 from '../Assets/Images/SEO/SEO-wins.png';
 import Home_6 from '../Assets/Images/Certifications/META-Front-End-Engineer-Certification.png';
 
@@ -53,11 +52,6 @@ class Header extends Component {
                                 <li className="about">
                                     <a href="#about" title="link to about me section">
                                         <img src={Home_2} alt="AboutMe"/>
-                                    </a>
-                                </li>
-                                <li className="service">
-                                    <a href="#service" title="link to service section">
-                                        <img src={Home_3} alt="Skills"/>
                                     </a>
                                 </li>
                                 <li className="protfolio">
