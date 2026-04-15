@@ -25,13 +25,6 @@ class Footer extends Component {
                                 <FontAwesomeIcon icon={faGithub} /> </a>
                         </li>
 
-                     
-
-                        <li>  
-                               <a href="https://twitter.com/jeremypdickey" alt="My Twitter" title="My Twitter">
-                                <FontAwesomeIcon icon={faTwitter} /> </a>
-                        </li>
-
                
          
                                 </ul>

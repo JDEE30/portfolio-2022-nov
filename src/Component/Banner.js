@@ -41,20 +41,8 @@ class Banner extends Component {
                                 <FontAwesomeIcon icon={faGithub} /> </a>
                         </li>
 
-                     
-
                         <li>  
-                               <a href="https://twitter.com/jeremypdickey" alt="My Twitter" title="My Twitter">
-                                <FontAwesomeIcon icon={faTwitter} /> </a>
-                        </li>
-
-                        <li>  
-                               <a href="https://www.facebook.com/Jeremypdickey" alt="My Facebook" title="My FaceBook">
-                                <FontAwesomeIcon icon={faFacebook} /> </a>
-                        </li>
-
-                        <li>  
-                               <a href="https://medium.com/@jeremydickey" alt="My Medium" title="My Medium">
+                               <a href="https://www.linkedin.com/in/full-stack-software-engineer-swe/" alt="My Linkedin" title="My Linkedin">
                                 <FontAwesomeIcon icon={faMedium} /> </a>
                         </li>
                     </ul>
