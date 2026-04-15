@@ -99,7 +99,7 @@ class Porfolio extends Component {
                                     
                                     <img src={Gallery_1}  className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://www.samstaffing.jeremypdickey.com" alt="Click to see this React App" title="Click to see this React App" className="view-icon">
+                                        <a href="https://www.samstaffing.jeremydickey.com" alt="Click to see this React App" title="Click to see this React App" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a> <a href="https://github.com/JDEE30/awsm-project" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
                                 <FontAwesomeIcon icon={faGithub} />   </a>
@@ -112,7 +112,7 @@ class Porfolio extends Component {
                                     
                                     <img src={Gallery_2}  className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="https://www.jeremypdickey.com" alt="Click to see this React App" title="Click to see this React App" className="view-icon">
+                                        <a href="https://www.jeremydickey.com" alt="Click to see this React App" title="Click to see this React App" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a> <a href="https://github.com/JDEE30/portfolio-2022-nov" alt="Click to see this repository on Github" title="Click to see this repository on Github" className="view-icon">
                                 <FontAwesomeIcon icon={faGithub} />   </a>
